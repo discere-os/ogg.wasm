@@ -1,9 +1,12 @@
-# Ogg
+# @discere-os/ogg.wasm
 
-[![GitLab Pipeline Status](https://gitlab.xiph.org/xiph/ogg/badges/main/pipeline.svg)](https://gitlab.xiph.org/xiph/ogg/pipelines)
-[![GitHub CI Autotools build](https://github.com/xiph/ogg/actions/workflows/autotools.yml/badge.svg)](https://github.com/xiph/ogg/actions/workflows/autotools.yml)
-[![GitHub CI CMake build](https://github.com/xiph/ogg/actions/workflows/cmake.yml/badge.svg)](https://github.com/xiph/ogg/actions/workflows/cmake.yml)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/xiph/ogg?branch=master&svg=true)](https://ci.appveyor.com/project/rillian/ogg)
+WebAssembly port of libogg - Ogg bitstream format library with SIMD optimizations and comprehensive TypeScript interface for audio processing.
+
+[![CI/CD](https://github.com/discere-os/discere-nucleus/actions/workflows/ogg-wasm-ci.yml/badge.svg)](https://github.com/discere-os/discere-nucleus/actions)
+[![JSR](https://jsr.io/badges/@discere-os/ogg.wasm)](https://jsr.io/@discere-os/ogg.wasm)
+[![npm version](https://badge.fury.io/js/@discere-os%2Fogg.wasm.svg)](https://badge.fury.io/js/@discere-os%2Fogg.wasm)
+[![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](COPYING)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)](https://github.com/discere-os/discere-nucleus)
 
 Ogg project codecs use the Ogg bitstream format to arrange the raw,
 compressed bitstream into a more robust, useful form. For example,
@@ -159,3 +162,20 @@ IN 'COPYING'. PLEASE READ THESE TERMS BEFORE DISTRIBUTING.
 
 THE OggVorbis SOURCE CODE IS COPYRIGHT (C) 1994-2019
 by the Xiph.Org Foundation https://www.xiph.org/
+
+## 💖 Support This Work
+
+This WebAssembly port is part of a larger effort to bring professional desktop applications to browsers with native performance.
+
+**👨‍💻 About the Maintainer**: [Isaac Johnston (@superstructor)](https://github.com/superstructor) - Building foundational browser-native computing infrastructure through systematic C/C++ to WebAssembly porting.
+
+**📊 Impact**: 70+ open source WASM libraries enabling professional applications like Blender, GIMP, and scientific computing tools to run natively in browsers.
+
+**🚀 Your Support Enables**:
+- Continued maintenance and updates
+- Performance optimizations
+- New library ports and integrations
+- Documentation and tutorials
+- Cross-browser compatibility testing
+
+**[💖 Sponsor this work](https://github.com/sponsors/superstructor)** to help build the future of browser-native computing.
