@@ -47,7 +47,50 @@ compile_commands.json
 CTestTestfile.cmake
 CMakeSettings.json
 
-*[Bb]uild*/
+# WASM build artifacts
+build-dual*/
+build-main/
+build-side/
+install/
+dist/
+npm/
 
+# Generated WASM files
+*.wasm
+*.js.map
+
+# Deno
+deno.lock
+.deno/
+
+# Node.js (if used)
+node_modules/
+package-lock.json
+
+# IDE/Editor
 .vs/
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Emscripten cache
+.emscripten_cache/
+.emscripten_ports/
+
+# Generic build directories
+*[Bb]uild*/
